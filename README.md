@@ -1,5 +1,9 @@
 # React + Vite
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green)](https://<username>.github.io/reduxtoolkit/)
+
+**Live Demo:** [https://<username>.github.io/reduxtoolkit/](https://<username>.github.io/reduxtoolkit/)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
