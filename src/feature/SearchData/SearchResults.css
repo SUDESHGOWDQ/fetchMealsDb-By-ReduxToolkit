@@ -1,0 +1,29 @@
+.search-results {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 1rem;
+}
+.search-category-list, .search-meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.search-category-card, .search-meal-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 150px;
+  text-align: center;
+  background: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.search-category-card img, .search-meal-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.search-category-card div, .search-meal-card div {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
