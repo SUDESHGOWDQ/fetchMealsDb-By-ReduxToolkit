@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react'
-import {BrowserRouter,Routes,Route, useNavigate} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Categories from './feature/Categories/Categories'
 import Random from './feature/Random/index'
 import Navbar from './components/Navbar/index'
@@ -15,7 +14,7 @@ import { useDispatch } from 'react-redux';
 import { searchMealsAndCategories } from './feature/SearchData/SearchSlice';
 
 const App = () => {
-		const [, setSearchQuery] = useState("");
+	const [, setSearchQuery] = useState("");
 	const [showResults, setShowResults] = useState(false);
 	const dispatch = useDispatch();
 

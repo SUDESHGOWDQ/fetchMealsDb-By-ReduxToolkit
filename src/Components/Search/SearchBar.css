@@ -8,6 +8,7 @@
   border: 1px solid #ccc;
   border-radius: 4px 0 0 4px;
   outline: none;
+  min-width: 150px;
 }
 .search-bar button {
   padding: 0.4rem 0.8rem;
@@ -20,4 +21,35 @@
 }
 .search-bar button:hover {
   background: #e68900;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .search-bar input {
+    flex: 1;
+    min-width: auto;
+    padding: 0.6rem;
+  }
+
+  .search-bar button {
+    padding: 0.6rem 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-bar input {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .search-bar button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+  }
 }
